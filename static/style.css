@@ -9,8 +9,10 @@
 body{
     margin:0;
     padding:0;
-    background:#0D0D0D;
-    color:#E0E0E0;
+    background:#F4EFE6;
+    background-image:linear-gradient(to bottom,#F8F5EF,#F4EFE6);
+    color:#2E2E2E;
+}
     font-family:Arial, Helvetica, sans-serif;
     font-size:17px;
     line-height:1.7;
@@ -19,25 +21,15 @@ body{
 /* ===== MENU ===== */
 
 .navbar{
-
-    background:#141414;
-
+    background:#1C1C1C;
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-    gap:45px;
-
-    padding:18px 25px;
-
+    gap:35px;
+    padding:14px 20px;
     border-bottom:1px solid #303030;
-
     position:sticky;
-
     top:0;
-
     z-index:1000;
 
 }
@@ -70,24 +62,26 @@ body{
     width:90%;
     max-width:1200px;
     margin:auto;
-    padding:30px 20px;
+    padding:20px 20px;
 }
 
 /* ===== BANNIERE ===== */
 
 .banniere{
     width:100%;
+    max-height:350px;
+    object-fit:cover;
+    display:block;
+    margin:0 auto 40px auto;
     border-radius:10px;
-    margin-bottom:40px;
 }
-
 /* ===== TITRES ===== */
 
 h1{
 
-    font-size:42px;
+    font-size:36px;
 
-    color:#FFFFFF;
+    color:color:#1F1F1F;
 
     text-align:center;
 
@@ -99,9 +93,9 @@ h1{
 
 h2{
 
-    font-size:28px;
+    font-size:24px;
 
-    color:#F0F0F0;
+    color:color:#1F1F1F;
 
     margin-bottom:18px;
 
@@ -109,21 +103,17 @@ h2{
 
 h3{
 
-    font-size:22px;
+    font-size:18px;
 
-    color:#F0F0F0;
+    color:color:#1F1F1F;
 
 }
 /* ===== PARAGRAPHES ===== */
 
 p{
-
-    font-size:17px;
-
-    color:#D8D8D8;
-
+    font-size:15px;
+    color:#3E3E3E
     margin-bottom:18px;
-
     text-align:justify;
 
 }
@@ -234,19 +224,21 @@ footer{
 
 .carte{
 
-    background:#171717;
+    background:#FCFAF6;
 
-    border:1px solid #303030;
+    border:1px solid #DDD4C6;
 
     border-radius:12px;
 
-    padding:30px;
+    padding:22px;
 
-    margin:35px 0;
+    margin:25px 0;
 
-    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    box-shadow:0 6px 18px rgba(0,0,0,.20);
 
     transition:.30s;
+
+    color:#303030;
 
 }
 
@@ -300,6 +292,20 @@ h2{
 
 .contenu{
     width:95%;
+}
+
+/* ===== IMAGES ===== */
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.carte img{
+    width:100%;
+    height:auto;
+    border-radius:10px;
 }
 
 }

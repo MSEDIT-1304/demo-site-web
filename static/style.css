@@ -21,10 +21,11 @@ body{
 .navbar{
     background:#1C1C1C;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
     gap:35px;
     padding:14px 20px;
+    padding-left:35px;
     border-bottom:1px solid #444;
     position:sticky;
     top:0;
@@ -42,6 +43,20 @@ body{
 .navbar a:hover{
     color:#D6B36A;
 }
+
+/* ===== LOGO ===== */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:48px;
+    width:auto;
+    display:block;
+}
+
 /* ===== CONTENU ===== */
 
 .contenu{

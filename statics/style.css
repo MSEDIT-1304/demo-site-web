@@ -84,26 +84,64 @@ body{
 /* ===== TITRES ===== */
 
 h1{
+
     font-size:42px;
-    margin-bottom:20px;
-    color:white;
+
+    color:#FFFFFF;
+
+    text-align:center;
+
+    margin:25px 0;
+
+    font-weight:700;
+
 }
 
 h2{
-    font-size:30px;
-    margin:40px 0 20px;
-    color:white;
+
+    font-size:28px;
+
+    color:#F0F0F0;
+
+    margin-bottom:18px;
+
 }
 
 h3{
-    font-size:22px;
-    margin-bottom:15px;
-}
 
+    font-size:22px;
+
+    color:#F0F0F0;
+
+}
 /* ===== PARAGRAPHES ===== */
 
 p{
+
+    font-size:17px;
+
+    color:#D8D8D8;
+
     margin-bottom:18px;
+
+    text-align:justify;
+
+}
+
+/* ===== LISTES ===== */
+
+ul{
+
+    margin-left:25px;
+
+    line-height:2;
+
+}
+
+li{
+
+    margin-bottom:8px;
+
 }
 
 /* ===== BOUTONS ===== */
@@ -150,18 +188,46 @@ p{
 
 /* ===== IMAGES ===== */
 
-img{
-    max-width:100%;
+.image-projet{
+
+    width:100%;
+
+    border-radius:15px;
+
+    margin:25px 0;
+
+    border:1px solid #2d2d2d;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.45);
+
+    transition:0.3s;
+
+}
+
+.image-projet:hover{
+
+    transform:scale(1.02);
+
 }
 
 /* ===== FOOTER ===== */
 
 footer{
-    margin-top:60px;
-    padding:30px;
-    text-align:center;
-    background:#111;
+
+    background:#090909;
+
     color:#999;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:60px;
+
+    border-top:1px solid #222;
+
+    font-size:14px;
+
 }
 
 /* ===== CARTES ===== */

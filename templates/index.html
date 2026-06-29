@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Studio Web & Applications - Démonstration</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<a href="/">Accueil</a>
+
+<a href="/fonctionnalites">Fonctionnalités</a>
+
+<a href="/realisations">Réalisations</a>
+
+<a href="/projet">Votre projet</a>
+
+<a href="/contact">Contact</a>
+
+</nav>
+
+<div class="contenu">
+
+<img src="{{ url_for('static', filename='image/banniere.png') }}" class="banniere">
+
+<h1>Votre futur site internet commence ici</h1>
+
+<p>
+Découvrez un exemple de site internet professionnel, moderne et entièrement personnalisable.
+Chaque projet est réalisé sur mesure selon votre activité, vos besoins et votre image.
+</p>
+
+<p>
+Ce site présente quelques exemples de fonctionnalités pouvant être intégrées à un site vitrine professionnel.
+</p>
+
+<a class="bouton" href="/fonctionnalites">
+Découvrir les fonctionnalités
+</a>
+
+</div>
+
+<footer>
+
+© 2026 Studio Web & Applications - Site de démonstration
+
+</footer>
+
+</body>
+
+</html>

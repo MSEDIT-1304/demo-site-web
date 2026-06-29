@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Exemples de sites</title>
+<title>Exemples de réalisations</title>
 
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
@@ -15,88 +15,81 @@
 <body>
 
 <nav class="navbar">
-
-<a href="/">Accueil</a>
-<a href="/fonctionnalites">Fonctionnalités</a>
-<a href="/realisations">Exemples de sites</a>
-<a href="/projet">Votre projet</a>
-<a href="/contact">Contact</a>
-
+    <a href="/">Accueil</a>
+    <a href="/fonctionnalites">Fonctionnalités</a>
+    <a href="/realisations">Exemples de sites</a>
+    <a href="/projet">Votre projet</a>
+    <a href="/contact">Contact</a>
 </nav>
 
 <div class="contenu">
 
 <img src="{{ url_for('static', filename='image/banniere.png') }}" class="banniere">
 
-<h1>Quelques exemples de réalisations</h1>
+<h1>Quelques réalisations</h1>
 
 <p>
-
-Chaque projet est entièrement personnalisé selon les besoins du client.
-
-Voici quelques exemples de réalisations et de démonstrations.
-
+Chaque site est développé sur mesure selon les besoins du client.
+Découvrez quelques exemples de réalisations.
 </p>
 
 <hr><br>
 
-<h2>🏡 Démonstration Hébergement</h2>
+<img src="{{ url_for('static', filename='image/image_demohebergement.png') }}" style="width:100%;border-radius:10px;">
+
+<h2>🏡 Démonstration - Hébergement touristique</h2>
 
 <p>
-
-Exemple d'un site internet destiné aux hébergements touristiques.
-
-Réservation, galerie photos, calendrier de disponibilité, présentation des prestations...
-
+Exemple d'un site destiné à un hébergement touristique avec présentation, galerie photos,
+calendrier de réservation et différentes solutions de paiement selon le choix du client.
 </p>
 
+<p>
 <a class="bouton"
-href="https://site-de-demonstration-hebergement.onrender.com"
+href="https://site-de-demonstration-hebergement.onrender.com/"
 target="_blank">
-
 Voir la démonstration
-
 </a>
-
-<br><br><hr><br>
-
-<h2>🛠 S.L Multi Services</h2>
-
-<p>
-
-Ce site a été développé pour un client souhaitant présenter son activité de multi-services.
-
-Le design et les fonctionnalités ont été entièrement adaptés à ses besoins.
-
 </p>
 
+<hr><br>
+
+<img src="{{ url_for('static', filename='image/image_slmultiservices.png') }}" style="width:100%;border-radius:10px;">
+
+<h2>🔨 S.L Multi Services</h2>
+
+<p>
+Le client souhaitait reprendre le style de notre site commercial.
+Nous avons réalisé un site entièrement adapté à son activité de multiservices.
+En passant par Studio Web & Applications, nous assurons également sa visibilité grâce à notre réseau.
+</p>
+
+<p>
 <a class="bouton"
 href="https://s-l-multi-services.onrender.com"
 target="_blank">
-
 Voir le site
-
 </a>
-
-<br><br><hr><br>
-
-<h2>🚗 Cot' Auto</h2>
-
-<p>
-
-Application web professionnelle destinée aux intermédiaires de l'automobile.
-
-Estimation rapide de la valeur d'un véhicule grâce à un algorithme développé sur mesure.
-
 </p>
 
+<hr><br>
+
+<img src="{{ url_for('static', filename='image/image_cotauto.png') }}" style="width:100%;border-radius:10px;">
+
+<h2>🚗 Application Cot' Auto</h2>
+
+<p>
+Application web professionnelle destinée aux intermédiaires de l'automobile.
+Elle permet d'obtenir rapidement une estimation du prix marché d'un véhicule grâce à un algorithme développé spécifiquement pour cette activité.
+</p>
+
+<p>
 <a class="bouton"
 href="https://cot-auto.onrender.com"
 target="_blank">
-
 Découvrir l'application
-
 </a>
+</p>
 
 </div>
 
@@ -107,9 +100,7 @@ Découvrir l'application
 <br><br>
 
 <footer>
-
 © 2026 Studio Web & Applications - Site de démonstration
-
 </footer>
 
 </body>

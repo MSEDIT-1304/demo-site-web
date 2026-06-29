@@ -6,18 +6,16 @@
     box-sizing:border-box;
 }
 
+/* ===== BODY ===== */
+
 body{
-    margin:0;
-    padding:0;
     background:#F4EFE6;
     background-image:linear-gradient(to bottom,#F8F5EF,#F4EFE6);
     color:#2E2E2E;
-}
     font-family:Arial, Helvetica, sans-serif;
-    font-size:17px;
+    font-size:16px;
     line-height:1.7;
 }
-
 /* ===== MENU ===== */
 
 .navbar{
@@ -27,285 +25,154 @@ body{
     align-items:center;
     gap:35px;
     padding:14px 20px;
-    border-bottom:1px solid #303030;
+    border-bottom:1px solid #444;
     position:sticky;
     top:0;
     z-index:1000;
-
 }
 
 .navbar a{
-
-    color:#D8D8D8;
-
+    color:#F5F5F5;
     text-decoration:none;
-
-    font-size:17px;
-
+    font-size:16px;
     font-weight:600;
-
-    letter-spacing:0.4px;
-
-    transition:0.30s;
-
+    transition:.30s;
 }
 
 .navbar a:hover{
-
-    color:#FFFFFF;
-
+    color:#D6B36A;
 }
-
 /* ===== CONTENU ===== */
 
 .contenu{
     width:90%;
-    max-width:1200px;
+    max-width:1050px;
     margin:auto;
-    padding:20px 20px;
+    padding:30px 20px 60px 20px;
 }
-
 /* ===== BANNIERE ===== */
 
 .banniere{
     width:100%;
-    max-height:350px;
-    object-fit:cover;
+    max-width:1050px;
     display:block;
-    margin:0 auto 40px auto;
-    border-radius:10px;
+    margin:0 auto 35px auto;
+    border-radius:12px;
 }
 /* ===== TITRES ===== */
 
 h1{
-
-    font-size:36px;
-
-    color:color:#1F1F1F;
-
+    font-size:34px;
+    color:#202020;
     text-align:center;
-
     margin:25px 0;
-
-    font-weight:700;
-
 }
 
 h2{
-
-    font-size:24px;
-
-    color:color:#1F1F1F;
-
+    font-size:25px;
+    color:#202020;
     margin-bottom:18px;
-
 }
 
 h3{
-
-    font-size:18px;
-
-    color:color:#1F1F1F;
-
+    font-size:20px;
+    color:#202020;
 }
 /* ===== PARAGRAPHES ===== */
 
 p{
-    font-size:15px;
-    color:#3E3E3E
+    font-size:16px;
+    color:#444;
+    line-height:1.8;
     margin-bottom:18px;
     text-align:justify;
-
 }
-
 /* ===== LISTES ===== */
 
 ul{
-
     margin-left:25px;
-
-    line-height:2;
-
+    line-height:1.9;
 }
 
 li{
-
     margin-bottom:8px;
-
 }
-
 /* ===== BOUTONS ===== */
 
 .bouton{
-
     display:inline-block;
-
-    padding:14px 30px;
-
-    margin-top:20px;
-
-    background:#2F2F2F;
-
-    color:#FFFFFF;
-
+    background:#1C1C1C;
+    color:white;
+    padding:12px 26px;
     text-decoration:none;
-
-    font-size:16px;
-
-    font-weight:600;
-
-    border:1px solid #4A4A4A;
-
     border-radius:8px;
-
-    transition:all .30s ease;
-
-    box-shadow:0 4px 12px rgba(0,0,0,.35);
-
+    font-size:15px;
+    transition:.30s;
 }
 
 .bouton:hover{
-
-    background:#444444;
-
-    border-color:#707070;
-
-    transform:translateY(-2px);
-
-    box-shadow:0 8px 18px rgba(0,0,0,.45);
-
+    background:#D6B36A;
+    color:#1C1C1C;
 }
-
-/* ===== IMAGES ===== */
-
-.image-projet{
-
-    width:100%;
-
-    border-radius:15px;
-
-    margin:25px 0;
-
-    border:1px solid #2d2d2d;
-
-    box-shadow:0 10px 30px rgba(0,0,0,0.45);
-
-    transition:0.3s;
-
-}
-
-.image-projet:hover{
-
-    transform:scale(1.02);
-
-}
-
-/* ===== FOOTER ===== */
-
-footer{
-
-    background:#090909;
-
-    color:#999;
-
-    text-align:center;
-
-    padding:30px;
-
-    margin-top:60px;
-
-    border-top:1px solid #222;
-
-    font-size:14px;
-
-}
-
 /* ===== CARTES ===== */
 
 .carte{
-
-    background:#FCFAF6;
-
+    background:#FFFFFF;
     border:1px solid #DDD4C6;
-
     border-radius:12px;
-
-    padding:22px;
-
+    padding:24px;
     margin:25px 0;
-
-    box-shadow:0 6px 18px rgba(0,0,0,.20);
-
-    transition:.30s;
-
-    color:#303030;
-
-}
-
-.carte:hover{
-
-    transform:translateY(-4px);
-
-    box-shadow:0 12px 25px rgba(0,0,0,.50);
-
+    box-shadow:0 4px 12px rgba(0,0,0,.10);
 }
 
 .carte img{
-
     width:100%;
-
     border-radius:10px;
-
     margin-bottom:20px;
-
 }
+/* ===== FOOTER ===== */
 
-.carte h2{
-
-    margin-top:0;
-
+footer{
+    background:#1C1C1C;
+    color:#DDD;
+    text-align:center;
+    padding:25px;
+    margin-top:60px;
+    font-size:14px;
 }
-
-.carte p{
-
-    margin:18px 0;
-
-}
-
 /* ===== MOBILE ===== */
 
 @media(max-width:900px){
 
 .navbar{
     flex-direction:column;
-    align-items:center;
     gap:15px;
-}
-
-h1{
-    font-size:30px;
-}
-
-h2{
-    font-size:24px;
 }
 
 .contenu{
     width:95%;
+    padding:20px 15px;
 }
 
-/* ===== IMAGES ===== */
+.banniere{
+    width:100%;
+}
+
+h1{
+    font-size:28px;
+}
+
+h2{
+    font-size:22px;
+}
+
+p{
+    font-size:15px;
+}
 
 img{
     max-width:100%;
     height:auto;
-    display:block;
-}
-
-.carte img{
-    width:100%;
-    height:auto;
-    border-radius:10px;
 }
 
 }

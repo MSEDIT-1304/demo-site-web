@@ -109,18 +109,43 @@ p{
 /* ===== BOUTONS ===== */
 
 .bouton{
+
     display:inline-block;
+
+    padding:14px 30px;
+
     margin-top:20px;
-    padding:12px 30px;
-    background:#444;
-    color:white;
+
+    background:#2F2F2F;
+
+    color:#FFFFFF;
+
     text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    border:1px solid #4A4A4A;
+
     border-radius:8px;
-    transition:.3s;
+
+    transition:all .30s ease;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.35);
+
 }
 
 .bouton:hover{
-    background:#666;
+
+    background:#444444;
+
+    border-color:#707070;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.45);
+
 }
 
 /* ===== IMAGES ===== */
@@ -137,6 +162,56 @@ footer{
     text-align:center;
     background:#111;
     color:#999;
+}
+
+/* ===== CARTES ===== */
+
+.carte{
+
+    background:#171717;
+
+    border:1px solid #303030;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    margin:35px 0;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+
+    transition:.30s;
+
+}
+
+.carte:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.50);
+
+}
+
+.carte img{
+
+    width:100%;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+}
+
+.carte h2{
+
+    margin-top:0;
+
+}
+
+.carte p{
+
+    margin:18px 0;
+
 }
 
 /* ===== MOBILE ===== */

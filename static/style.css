@@ -69,11 +69,13 @@ body{
 
 .banniere{
     width:100%;
-    max-width:1050px;
+    height:350px;
+    object-fit:cover;
     display:block;
     margin:0 auto 35px auto;
     border-radius:12px;
 }
+
 /* ===== TITRES ===== */
 
 h1{
@@ -141,10 +143,11 @@ li{
 }
 
 .carte img{
-    width:100%;
-    border-radius:10px;
-    margin-bottom:20px;
+    width:75%;
+    display:block;
+    margin:0 auto 20px;
 }
+
 /* ===== FOOTER ===== */
 
 footer{

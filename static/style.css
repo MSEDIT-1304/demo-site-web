@@ -78,28 +78,21 @@ body{
 
 /* ===== TITRES ===== */
 
-h1{
+1{
     font-size:34px;
     color:#202020;
     text-align:center;
-    margin:12px 0 18px;
-    font-weight:600;
+    margin:25px 0;
 }
-
 h2{
     font-size:25px;
     color:#202020;
-    margin-bottom:10px;
-    margin-bottom:10px;
-    font-weight:600;
+    margin-bottom:18px;
 }
 
 h3{
-    h3{
     font-size:20px;
     color:#202020;
-    font-weight:600;
-    margin-bottom:8px;
 }
     
 /* ===== PARAGRAPHES ===== */
@@ -107,10 +100,11 @@ h3{
 p{
     font-size:16px;
     color:#444;
-    line-height:1.6;
-    margin-bottom:12px;
+    line-height:1.8;
+    margin-bottom:18px;
     text-align:justify;
 }
+
 /* ===== LISTES ===== */
 
 ul{

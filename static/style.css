@@ -12,7 +12,7 @@ body{
     background:#F4EFE6;
     background-image:linear-gradient(to bottom,#F8F5EF,#F4EFE6);
     color:#2E2E2E;
-    font-family:'Poppins',sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
     font-size:16px;
     line-height:1.7;
 }

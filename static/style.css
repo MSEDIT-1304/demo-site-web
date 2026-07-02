@@ -78,25 +78,25 @@ body{
 /* ===== TITRES ===== */
 
 h1{
-    font-size:28px;
+    font-size:24px;
     font-weight:700;
-    letter-spacing:-0.5px;
+    letter-spacing:-0.3px;
 }
 
 h2{
-    font-size:20px;
+    font-size:16px;
     font-weight:600;
-    letter-spacing:-0.3px;
+    letter-spacing:-0.2px;
 }
 
     
 /* ===== PARAGRAPHES ===== */
 
 p{
-    font-size:16px;
+    font-size:15px;
     color:#444;
-    line-height:1.8;
-    margin-bottom:18px;
+    line-height:1.7;
+    margin-bottom:16px;
     text-align:justify;
 }
 
@@ -130,26 +130,32 @@ li{
 /* ===== CARTES ===== */
 
 .carte{
-    background:#fff;
-    border:none;
+    background:#FCFAF6;
+    border:1px solid #E8DFD2;
     border-radius:16px;
-    padding:28px;
-    margin:24px 0;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
 
-    transition: transform .25s ease, box-shadow .25s ease;
+    width:100%;
+    max-width:700px;
+
+    margin:24px auto;
+
+    padding:22px 24px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.07);
+
+    transition:transform .25s ease, box-shadow .25s ease;
 }
 
 .carte:hover{
-    transform:translateY(-3px);
-    box-shadow:0 16px 40px rgba(0,0,0,.12);
+    transform:translateY(-2px);
+    box-shadow:0 12px 30px rgba(0,0,0,.10);
 }
+
 .carte img{
     width:75%;
     display:block;
     margin:0 auto 20px;
 }
-
 /* ===== FOOTER ===== */
 
 footer{
@@ -179,18 +185,18 @@ footer{
 }
 
 h1{
-    font-size:24px;
+    font-size:22px;
 }
 
 h2{
-    font-size:18px;
+    font-size:17px;
 }
 h3{
-    font-size:17px;
+    font-size:15px;
 }
 
 p{
-    font-size:15px;
+    font-size:14px;
 }
 
 img{

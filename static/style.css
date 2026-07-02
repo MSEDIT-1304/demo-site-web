@@ -88,7 +88,10 @@ h2{
     font-weight:600;
     letter-spacing:-0.2px;
 }
-
+.titre-centre{
+    text-align:center;
+    margin-bottom:20px;
+}
     
 /* ===== PARAGRAPHES ===== */
 
